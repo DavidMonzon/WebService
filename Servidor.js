@@ -5,8 +5,8 @@
 	var app=express();
 	var puerto=3000;
 	var mysql=require('mysql')
-	var conf=require('./config');
-	var pool=mysql.createpool(conf.database);
+	var conf=require('./config.js');
+	var pool=mysql.createPool(conf.database);
 	app.set('pool',pool)
 	app.use(morgan('dev'));
 	app.use(bodyparser.urlencoded({

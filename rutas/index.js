@@ -5,7 +5,7 @@ module.exports=(function(app){
 		respuesta.send("Servidor Iniciado");
 	});
 
-	ruta.post('/usuario/registro/',usuario.registo);
+	ruta.post('/usuario/registro/',usuario.registro);
 	ruta.post('/usuario/login/',usuario.login);
 	return ruta;
 });

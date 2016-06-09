@@ -4,6 +4,6 @@ module.exports={
 		host 		: 'localhost',
 		user 		: 'root',
 		password 	: '',
-		database 	: 'appguiaturistica'
+		database 	: 'turismo'
 	}
 }
